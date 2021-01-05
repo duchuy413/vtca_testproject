@@ -1,0 +1,14 @@
+Giải phương trình bậc II: ax2 + bx + c = 0
+
+delta = b*b - 4*a*c;
+
+if (delta > 0){
+  x1 = (-b + sqrt(delta))/(2*a);
+  x2 = (-b - sqrt(delta))/(2*a);
+  In ra: phương trình có 2 nghiệm x1,x2;
+} else if (delta = 0){
+  x = -b/(2*a);
+} else {
+  In ra: phương trình vô nghiệm 
+}
+

@@ -46,46 +46,4 @@ public class Main {
         input.close();
     }
 
-//    public static UngVien nhapUngVien(int i){
-//        Scanner input = new Scanner(System.in);
-//        UngVien ungVien = new UngVien();
-//        System.out.println(String.format("Moi nhap ung vien so %d: ",i));
-//        System.out.println("Nhap ho ten: ");
-//        ungVien.hoten = input.nextLine();
-//
-//        System.out.println("Nhap nam sinh: ");
-//        ungVien.namsinh = input.nextInt();
-//
-//        System.out.println("Nhap gioi tinh: ");
-//        ungVien.gioitinh = input.nextLine();
-//
-//        System.out.println("Nhap chieu cao: ");
-//        ungVien.chieucao = input.nextFloat();
-//
-//        System.out.println("Nhap can nang: ");
-//        ungVien.cannang = input.nextFloat();
-//
-//        System.out.println("Nhap que quan: ");
-//        ungVien.quequan = input.nextLine();
-//
-//        System.out.println("Nhap chuyen nganh: ");
-//        ungVien.chuyennganh = input.nextLine();
-//
-//        System.out.println("Nhap diem TB: ");
-//        ungVien.diemTB = input.nextFloat();
-//
-//        return ungVien;
-//    }
-//
-//    public static void xuatUngVien(UngVien ungVien,int i){
-//        System.out.println("Ung vien so: " + i);
-//        System.out.println("Ung vien so: " + i);
-//        System.out.println("Ung vien so: " + i);
-//        System.out.println("Ung vien so: " + i);
-//        System.out.println("Ung vien so: " + i);
-//        System.out.println("Ung vien so: " + i);
-//        System.out.println("Ung vien so: " + i);
-//        System.out.println("Ung vien so: " + i);
-//
-//    }
 }
