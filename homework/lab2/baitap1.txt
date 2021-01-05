@@ -1,0 +1,3 @@
+a và b mô tả phép chia a cho b
+
+c mô tả hàm kiểm tra n có phải số nguyên tố hay không
