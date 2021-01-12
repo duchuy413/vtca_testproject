@@ -7,13 +7,21 @@ public class ConsoleUtil {
 
     public static int inputInt(String varName) {
         System.out.println("Nhap vao "+varName+": ");
-        int result = input.nextInt();
-        return result;
+        return input.nextInt();
     }
 
     public static float inputFloat(String varName) {
         System.out.println("Nhap vao "+varName+": ");
-        float result = input.nextFloat();
-        return result;
+        return input.nextFloat();
+    }
+
+    public static char inputChar(String varName) {
+        System.out.println("Nhap vao "+varName+": ");
+        return input.next().charAt(0);
+    }
+
+    public static String inputString(String varName) {
+        System.out.println("Nhap vao "+varName+": ");
+        return input.nextLine();
     }
 }
