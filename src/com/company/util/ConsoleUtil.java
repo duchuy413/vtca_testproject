@@ -1,5 +1,7 @@
 package com.company.util;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ConsoleUtil {
@@ -23,5 +25,27 @@ public class ConsoleUtil {
     public static String inputString(String varName) {
         System.out.println("Nhap vao "+varName+": ");
         return input.nextLine();
+    }
+
+    public static int[] inputArrayInt(String varName){
+        System.out.println("Nhap vao so phan tu cua "+varName+": ");
+        int n = input.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            System.out.println("Nhap vao phan tu thu " + (i+1));
+           a[i] = input.nextInt();
+        }
+        return a;
+    }
+
+    public static List<Integer> inputListInt(String varName){
+        System.out.println("Nhap vao so phan tu cua "+varName+": ");
+        int n = input.nextInt();
+        var a = new ArrayList<Integer>();
+        for (int i = 0; i < n; i++) {
+            System.out.println("Nhap vao phan tu thu " + (i+1));
+            a.add(input.nextInt());
+        }
+        return a;
     }
 }
